@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Imagen del Pokémon -->
+    <ImageView
+        android:id="@+id/ivPokemonImage2"
+        android:layout_width="285dp"
+        android:layout_height="269dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <!-- Nombre del Pokémon -->
+    <TextView
+        android:id="@+id/tvPokemonName2"
+        android:layout_width="300dp"
+        android:layout_height="68dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivPokemonImage2"
+        tools:text="Pokemon Name" />
+
+    <!-- Altura -->
+    <TextView
+        android:id="@+id/tvPokemonHeight"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPokemonName2"
+        tools:text="Height: 7" />
+
+    <!-- Peso -->
+    <TextView
+        android:id="@+id/tvPokemonWeight"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPokemonHeight"
+        tools:text="Weight: 69" />
+
+    <!-- Experiencia -->
+    <TextView
+        android:id="@+id/tvPokemonExperience"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPokemonWeight"
+        tools:text="Experience: 64" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
