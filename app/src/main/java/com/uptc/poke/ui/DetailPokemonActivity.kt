@@ -27,6 +27,8 @@ class DetailPokemonActivity : AppCompatActivity() {
             binding.tvPokemonWeight.text = "Peso: ${details.weight}"
             binding.tvPokemonExperience.text = "Experiencia: ${details.base_experience}"
 
+
+
             Glide.with(this)
                 .load("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/$pokemonId.png")
                 .into(binding.ivPokemonImage2)

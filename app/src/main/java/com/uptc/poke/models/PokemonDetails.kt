@@ -6,4 +6,6 @@ data class PokemonDetails(
     val base_experience: Int,
     val height: Int,
     val weight: Int
+
+
 )

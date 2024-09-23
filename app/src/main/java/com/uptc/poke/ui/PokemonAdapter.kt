@@ -21,6 +21,8 @@ class PokemonAdapter(
         holder.bind(pokemons[position])
     }
 
+
+
     override fun getItemCount() = pokemons.size
 
     inner class PokemonViewHolder(private val binding: ItemPokemonBinding) : RecyclerView.ViewHolder(binding.root) {

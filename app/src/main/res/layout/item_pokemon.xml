@@ -23,7 +23,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:srcCompat="@tools:sample/avatars" />
 
-        <!-- Nombre del Pokémon -->
+
         <TextView
             android:id="@+id/tvPokemonName"
             android:layout_width="0dp"

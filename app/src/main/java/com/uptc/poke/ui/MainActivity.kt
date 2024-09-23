@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         val pokemonAdapter = PokemonAdapter(emptyList())
 
         binding.rvPokemons.apply {
@@ -34,6 +35,7 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     binding.progressBar.visibility = android.view.View.GONE
                     pokemonAdapter.pokemons = uiState.pokemons ?: emptyList()
+
                     pokemonAdapter.notifyDataSetChanged()
                 }
             }
