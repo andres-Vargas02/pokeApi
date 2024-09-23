@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:background="@color/white">
 
-        <!-- Imagen del Pokémon -->
         <ImageView
             android:id="@+id/ivPokemonImage"
             android:layout_width="168dp"
